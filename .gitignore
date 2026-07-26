@@ -1,3 +1,63 @@
+# Virtual Environment
 venv/
+.venv/
+env/
+ENV/
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Compiled Python files
+*.so
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Test and coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Type checker cache
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Model files (optional - uncomment if they are large)
+# *.pkl
+# *.joblib
+# *.h5
+# *.pt
+# *.pth
+# *.onnx
+
+# Data files (optional - uncomment if datasets are large)
+# data/
+# datasets/
