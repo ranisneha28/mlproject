@@ -21,3 +21,8 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
+logging.info("Logger is working successfully")
+
+if __name__ == "__main__":
+    logging.info("Testing logger")
+
